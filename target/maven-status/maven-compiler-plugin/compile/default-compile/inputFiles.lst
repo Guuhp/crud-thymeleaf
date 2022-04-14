@@ -1,0 +1,9 @@
+/home/qwerty/Documents/SPRING/Crud-Spring-thymeleaf-ifms/src/main/java/br/edu/ifms/crudspring/CrudSpringApplication.java
+/home/qwerty/Documents/SPRING/Crud-Spring-thymeleaf-ifms/src/main/java/br/edu/ifms/crudspring/Service/StudentService.java
+/home/qwerty/Documents/SPRING/Crud-Spring-thymeleaf-ifms/src/main/java/br/edu/ifms/crudspring/Controller/TeacherController.java
+/home/qwerty/Documents/SPRING/Crud-Spring-thymeleaf-ifms/src/main/java/br/edu/ifms/crudspring/Controller/StudentController.java
+/home/qwerty/Documents/SPRING/Crud-Spring-thymeleaf-ifms/src/main/java/br/edu/ifms/crudspring/Model/Teacher.java
+/home/qwerty/Documents/SPRING/Crud-Spring-thymeleaf-ifms/src/main/java/br/edu/ifms/crudspring/Service/TeacherService.java
+/home/qwerty/Documents/SPRING/Crud-Spring-thymeleaf-ifms/src/main/java/br/edu/ifms/crudspring/Repository/StudentRepository.java
+/home/qwerty/Documents/SPRING/Crud-Spring-thymeleaf-ifms/src/main/java/br/edu/ifms/crudspring/Repository/TeacherRepository.java
+/home/qwerty/Documents/SPRING/Crud-Spring-thymeleaf-ifms/src/main/java/br/edu/ifms/crudspring/Model/Student.java
