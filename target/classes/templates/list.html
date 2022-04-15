@@ -88,8 +88,8 @@
                    <div class="modal-dialog">
                      <div class="modal-content">
                        <div class="modal-header">
-                         <h5 class="modal-title" id="exampleModalLabel">New message</h5>
-                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                         <h5 class="modal-title" id="exampleModalLabel">Atualizar Estudante</h5>
+                         <button type="button" class="btn-close" data-dismiss="modal"></button>
                        </div>
                        <div class="modal-body">
                          <form th:action="@{/students/update/{id} (id=${student.id})}"
@@ -97,19 +97,22 @@
                          method="post" id="modalUpdateForm">
                          <div class="mb-3">
                           <label for="recipient-name" class="col-form-label">Name:</label>
-                          <input type="text" class="form-control" th:field="*{name}" id="modalUpdateInputName" name="name">
+                          <input type="text" class="form-control" th:field="*{name}" id="modalUpdateInputName"
+                            name="name">
                         </div>
                         <div class="mb-3">
                           <label for="recipient-name" class="col-form-label">Email:</label>
-                          <input type="text" class="form-control" th:field="*{email}" id="modalUpdateInputEmail" name="email">
+                          <input type="text" class="form-control" th:field="*{email}" id="modalUpdateInputEmail"
+                            name="email">
                         </div>
                         <div class="mb-3">
                           <label for="recipient-name" class="col-form-label">Senha:</label>
-                          <input type="text" class="form-control" th:field="*{password}" id="modalUpdateInputPassword" name="password">
+                          <input type="text" class="form-control" th:field="*{password}"
+                            id="modalUpdateInputPassword" name="password">
                         </div>
                            <div class="modal-footer">
-                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                             <button type="submit" class="btn btn-primary" th:href="@{/students/update/{id} (id=${student.id})}">Confirm</button>
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                             <button type="submit" class="btn btn-primary" th:href="@{/students/update/{id} (id=${student.id})}">Confirmar</button>
                            </div>
                          </form>
                        </div>

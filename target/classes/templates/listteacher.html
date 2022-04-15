@@ -94,8 +94,8 @@
                 <div class="modal-dialog">
                   <div class="modal-content">
                     <div class="modal-header">
-                      <h5 class="modal-title" id="exampleModalLabel">New message</h5>
-                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      <h5 class="modal-title" id="exampleModalLabel">Atualizar Professor</h5>
+                      <button type="button" class="btn-close" data-dismiss="modal"></button>
                     </div>
                     <div class="modal-body">
                       <form th:action="@{/teachers/update/{id} (id=${teacher.id})}" th:object="${newteacher}"
@@ -116,9 +116,9 @@
                             id="modalUpdateInputcurricularUnit" name="curricularUnit">
                         </div>
                         <div class="modal-footer">
-                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
                           <button type="submit" class="btn btn-primary"
-                            th:href="@{/teachers/update/{id} (id=${teacher.id})}">Confirm</button>
+                            th:href="@{/teachers/update/{id} (id=${teacher.id})}">Confirmar</button>
                         </div>
                       </form>
                     </div>

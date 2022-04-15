@@ -25,6 +25,7 @@ public class StudentController {
     public String listStudent(Model model) {
         List<Student> students = service.getStudents();
         model.addAttribute("listStudents", students);
+        model.addAttribute("student", new Student());
 
         return "list";
     }

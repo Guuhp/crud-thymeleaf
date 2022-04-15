@@ -1,9 +1,13 @@
 br/edu/ifms/crudspring/Service/TeacherService.class
 br/edu/ifms/crudspring/Service/StudentService.class
+br/edu/ifms/crudspring/Repository/TurmaRepository.class
 br/edu/ifms/crudspring/Controller/TeacherController.class
+br/edu/ifms/crudspring/Service/TurmaService.class
 br/edu/ifms/crudspring/Model/Student.class
 br/edu/ifms/crudspring/CrudSpringApplication.class
 br/edu/ifms/crudspring/Controller/StudentController.class
+br/edu/ifms/crudspring/Controller/TurmaController.class
 br/edu/ifms/crudspring/Repository/TeacherRepository.class
+br/edu/ifms/crudspring/Model/Turma.class
 br/edu/ifms/crudspring/Model/Teacher.class
 br/edu/ifms/crudspring/Repository/StudentRepository.class
